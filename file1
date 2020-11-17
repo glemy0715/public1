@@ -1,0 +1,10 @@
+
+    String owner = "zlemy";
+    String repo = "private1";
+    String branch = "master";
+    String filePath = "create_file";
+    try {
+      String body = "sample file contents. this file create from devpipeline code";
+      System.out.println(tea.createContent(owner, repo, branch, filePath, body));
+    } catch (Exception e) {
+      e.printStackTrace();
