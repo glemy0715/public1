@@ -1,0 +1,10 @@
+toolchain dto adaptor를 만듬
+기존 툴체인을 살리고 새로운 툴체인을 사용할 수 있도록 함
+dto adaptor 만듬
+
+git drive 내부에서는 뉴타입 툴체인 DTO를 사용함
+
+
+git DTO가 있다고 가정하고 git api를 통합하는 모듈을 원할 것이므로 이 부분을 우선한다
+api 통합 테스트가 완료되면 툴체인의 dto를 변환하는 작업을 하도록 한다
+
